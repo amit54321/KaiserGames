@@ -1,5 +1,7 @@
 import { useLocation } from "react-router-dom";
 import CardGame from "../components/CardGame";
+import Testing from "../components/Testing";
+
 import ExtraFunctions from "../components/ExtraFunctions";
 
 function SingleGamePage() {
@@ -8,6 +10,7 @@ function SingleGamePage() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <ExtraFunctions />
+
       <CardGame
         name={location.state.name}
         image={location.state.image}
@@ -21,6 +24,7 @@ function SingleGamePage() {
       >
         {location.state.desc}
       </div>
+      <Testing id={location.state.id} />
     </div>
   );
 }

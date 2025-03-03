@@ -17,7 +17,7 @@ function NewNav() {
   let textStyle = " text-sm font-bold ";
 
   let scrollNav =
-    "w-full h -[100px] fixed flex justify-center items-center duration-100 ease-in-out ";
+    "w-full h -[100px] fixed flex justify-center items-center duration-100 ease-in-out z-[2]";
   return (
     <div className={scrollNav}>
       <div className="w-[80%] h-[100px] bg-black flex justify-between items-center  px-5 md:px-8">
