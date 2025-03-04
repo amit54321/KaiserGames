@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default function Testing({ id }) {
+export default function ListGameImages({ id }) {
   let images;
   console.log(id);
   switch (id) {
@@ -68,8 +68,6 @@ export default function Testing({ id }) {
       });
       break;
   }
-
-  console.log(images);
 
   const slider = React.useRef(null);
   var settings = {

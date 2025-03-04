@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import CardGame from "../components/CardGame";
-import Testing from "../components/Testing";
+import ListGameImages from "../components/ListGameImages";
 
 import ExtraFunctions from "../components/ExtraFunctions";
 
@@ -24,7 +24,7 @@ function SingleGamePage() {
       >
         {location.state.desc}
       </div>
-      <Testing id={location.state.id} />
+      <ListGameImages id={location.state.id} />
     </div>
   );
 }
