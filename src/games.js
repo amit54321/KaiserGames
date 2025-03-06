@@ -5,6 +5,7 @@ import image4 from "./assets/numberCruncher.png";
 import image5 from "./assets/Pika.png";
 import image6 from "./assets/Deliveryman.jpg";
 import image7 from "./assets/ColorMirror.png";
+import image8 from "./assets/candyTetris.png";
 
 export const gamesArray = [
   {
@@ -61,5 +62,13 @@ export const gamesArray = [
     game_url:
       "https://play.google.com/store/apps/details?id=com.kaisergames.numbercruncher",
     desc: "Master the legendary match 3 or 4 puzzle game. Test your multiplication skill and beat other players\n around the world.\nFun loving short game to kill your time and also to increase your brain skill.",
+  },
+  {
+    id: 8,
+    game_name: "Candy Tetriss",
+    game_image: image8,
+    game_url:
+      "https://play.google.com/store/apps/details?id=com.kaiser.candyTetris",
+    desc: "CANDYTETRISS, the mobile app for the block puzzle game. \nPlay through hundreds of unique CANDYTETRISS Levels in a new and exciting candy puzzle experience. Blast through infinite rounds to master your skills in the CANDYTETRISS Single Player Modes.\nEnjoy the ultimate candy puzzle game with these amazing features:\n\nPLAY HUNDREDS OF CANDY TETRISS LEVELS\nPuzzle your way through challenging but fun objectives by playing CandyTetriss.\nThe classic candy puzzle game with a fresh twist!\nImprove your gameplay by learning new tricks and mastering the hardest levels.\nPlay Candy Tetriss like never before! Clear lines, blast through obstacles, and solve level puzzles.\n\nTETRIS SINGLE PLAYER\n\nMaster your skills with the iconic candy puzzle game you know and love.\nAvailable offline—enjoy the candy puzzle fun anytime, anywhere.",
   },
 ];
