@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="w-[80%] text-sm font-semibold text-black-100 pt-[40px] pb-[40px] ">
         Kaiser is a game company based in India. Since our launch in 2024, we've
-        brought seven games to the global market – CandyTetris, Number Cruncher,
+        brought eight games to the global market – CandyTetris, Number Cruncher,
         Deliveryman, Pika, Crysta, Fill The Bucket, Color Mirror. Our dream is
         to create great games that as many people as possible play for years and
         that are remembered forever.
